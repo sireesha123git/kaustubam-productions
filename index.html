@@ -8,7 +8,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="Kaustubam Productions">
 <meta property="og:title" content="KP-WOW World of Wonders · Kaustubam Productions">
-<meta property="og:description" content="Short AI films about the festivals, companies and birds of our world, and ad films for brands. New films every week.">
+<meta property="og:description" content="Short AI films about the festivals, companies and birds of our world, and ad films for brands.">
 <meta property="og:image" content="https://kaustubamproductions.com/img/kp-logo.jpg">
 <meta property="og:url" content="https://kaustubamproductions.com/">
 <meta name="twitter:card" content="summary_large_image">
@@ -88,11 +88,11 @@ p{margin:0}
 .week{position:relative;border-top:1px solid rgba(217,180,108,.16);background:rgba(11,16,32,.6)}
 .week .wrap{display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center;padding-block:18px}
 .week .lbl{font-family:var(--f-display);font-style:italic;font-size:1.25rem;color:var(--gold-hi)}
-.days{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}
+.days{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
 .day{border:1px solid rgba(169,175,200,.18);border-radius:12px;padding:8px 10px;min-width:0}
 .day b{display:block;font-size:.72rem;letter-spacing:.18em;color:var(--mist)}
 .day span{display:block;font-size:.86rem;font-weight:600;line-height:1.3}
-.day.f span{color:#ffc58a}.day.c span{color:#9fd3e6}.day.b span{color:#b9dcb0}
+.day.f span{color:#ffc58a}.day.c span{color:#9fd3e6}.day.b span{color:#b9dcb0}.day.a span{color:#c9b3ff}.day.t span{color:var(--moon)}
 .week .note{grid-column:1/-1;font-size:.8rem;color:var(--mist)}
 
 /* ---------- doorways ---------- */
@@ -349,7 +349,7 @@ footer .wrap{align-items:center}
 <footer>
   <div class="wrap">
     <span>© 2026 Kaustubam Productions · KP-WOW World of Wonders</span>
-    <span data-t="foot_weekly">New films every week at 6 pm India time</span>
+    <span data-t="foot_weekly">New films added as they release</span>
     <a class="paybtn" href="#pay"><svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true"><rect x="2.5" y="5.5" width="19" height="13" rx="2.5"/><path d="M2.5 10h19"/></svg><span data-t="foot_pay">Pay or support us</span></a>
   </div>
 </footer>
@@ -530,7 +530,7 @@ const esc=x=>String(x).replace(/[&<>"]/g,c=>({"&":"&amp;","<":"&lt;",">":"&gt;",
 function card(v,opts){
   const live=isLive(v),tall=opts.tall,lobby=opts.lobby;
   const href=v.url||(tall?SHORTS:CHANNEL);
-  const when=v.note?esc(v.note):live?fmt.format(new Date(v.at)):t("premieres",{d:fmtSoon.format(new Date(v.at))});
+  const when=v.note?esc(v.note):live?fmt.format(new Date(v.at)):t("premieres");
   const inner=`<div class="thumb">${v.thumb?`<img src="${esc(v.thumb)}" alt="" loading="lazy" onerror="this.onerror=null;this.src='img/kp-logo.jpg'">`:`<img src="img/${v.img}.jpg" alt="" loading="lazy">`}
       ${live?`<span class="badge">${tall?t("b_10s"):t("b_film")}</span><span class="play" aria-hidden="true"></span>`:`<span class="badge soon">${t("coming_soon")}</span>`}</div>
     <div class="body"><span class="eyebrow">${esc(v.name)} · ${esc(v.place)}</span><h3 lang="en">${esc(v.title)}</h3><small>${when}</small></div>`;
@@ -540,7 +540,7 @@ function card(v,opts){
 function placeholder(w,label,i,tall){
   const W=WORLDS[w];
   return `<div class="card soon placeholder"><div class="thumb">${scene(w,true,tall?360:640,tall?640:360,101+i*13)}<span class="lbl">${esc(label)}</span></div>
-    <div class="body"><span class="eyebrow">${W.code} · ${t("in_prod")}</span><h3>${tall?t("teaser_soon"):t("coming_soon")}</h3><small>${W.day?t("new_eps_on",{day:t(W.day)}):t("new_ads")}</small></div></div>`;
+    <div class="body"><span class="eyebrow">${W.code} · ${t("in_prod")}</span><h3>${tall?t("teaser_soon"):t("coming_soon")}</h3><small>${w!=="woa"?t("new_eps_on"):t("new_ads")}</small></div></div>`;
 }
 
 /* ---------- home ---------- */
@@ -565,14 +565,13 @@ function home(){
     <div class="week"><div class="wrap">
       <span class="lbl">${t("week_label")}</span>
       <div class="days">
-        <div class="day f"><b>${t("d_sun")}</b><span>${t("fest_teaser")}</span></div>
-        <div class="day f"><b>${t("d_mon")}</b><span>${t("fest_film")}</span></div>
-        <div class="day c"><b>${t("d_tue")}</b><span>${t("comp_teaser")}</span></div>
-        <div class="day c"><b>${t("d_wed")}</b><span>${t("comp_film")}</span></div>
-        <div class="day b"><b>${t("d_thu")}</b><span>${t("bird_teaser")}</span></div>
-        <div class="day b"><b>${t("d_fri")}</b><span>${t("bird_film")}</span></div>
+        <div class="day t"><b>${t("v_teaser_len")}</b><span>${t("v_teaser")}</span></div>
+        <div class="day f"><b>${t("v_fest_len")}</b><span>${t("v_fest")}</span></div>
+        <div class="day c"><b>${t("v_comp_len")}</b><span>${t("v_comp")}</span></div>
+        <div class="day b"><b>${t("v_bird_len")}</b><span>${t("v_bird")}</span></div>
+        <div class="day a"><b>${t("v_ad_len")}</b><span>${t("v_ad")}</span></div>
       </div>
-      <p class="note">${next?`${t("next_up")} <strong style="color:var(--gold-hi)" lang="en">${esc(next.title)}</strong>, ${fmtSoon.format(new Date(next.at))}. `:""}${t("join_note")}</p>
+      <p class="note">${next?`${t("next_up")} <strong style="color:var(--gold-hi)" lang="en">${esc(next.title)}</strong>. `:""}${t("join_note")}</p>
     </div></div>
   </section>
 
@@ -608,7 +607,7 @@ function home(){
     <h2 class="sec-title">${t("map_a")} <em>${t("map_b")}</em></h2>
     <div class="facts">
       <div class="fact"><div class="num">3</div><h3>${t("f1_h")}</h3><p>${t("f1_p")}</p></div>
-      <div class="fact"><div class="num">6</div><h3>${t("f2_h")}</h3><p>${t("f2_p",{n:nFest})}</p></div>
+      <div class="fact"><div class="num">5</div><h3>${t("f2_h")}</h3><p>${t("f2_p",{n:nFest})}</p></div>
       <div class="fact"><div class="num">9</div><h3>${t("f3_h")}</h3><p>${t("f3_p")}</p></div>
     </div>
     <div class="talk" id="talk">
@@ -661,9 +660,8 @@ function world(w,tab){
         <div class="stats">${lf||lt?`
           <div class="stat"><b>${lf}</b><span>${t("live_n",{tab:tabs[tabs.length-1]})}</span></div>
           ${one?"":`<div class="stat"><b>${lt}</b><span>${t("teasers_live")}</span></div>`}`:`
-          <div class="stat"><b>${one?t("soon"):"11 / 2026"}</b><span>${one?t("first_ads"):t("first_eps")}</span></div>`}
-          ${nextF?`<div class="stat"><b>${fmtSoon.format(new Date(nextF.at))}</b><span>${t("next_premiere")}</span></div>`
-            :W.day?`<div class="stat"><b>${t(W.day)}</b><span>${t("weekly")}</span></div>`:""}
+          <div class="stat"><b>${t("soon")}</b><span>${one?t("first_ads"):t("first_eps")}</span></div>`}
+          ${nextF?`<div class="stat"><b lang="en">${esc(nextF.name)}</b><span>${t("next_premiere")}</span></div>`:""}
         </div>
       </div>
     </section>
