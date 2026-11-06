@@ -3,7 +3,7 @@ nav_wof:"节日", nav_woc:"企业", nav_wob:"鸟类", nav_woa:"广告", nav_part
 lang_label:"语言",
 foot_weekly:"新影片随发布随时上线", foot_pay:"付款或支持我们",
 presents:"Kaustubam Productions 出品", tagline:"奇妙世界",
-lede:"关于让世界更美好的节日、企业和鸟类的短片，以及让人记住的广告。由AI制作，经人工打磨。",
+lede:"关于让世界更美好的节日、企业、鸟类和信仰故事的短片，以及让人记住的广告。由AI制作，经人工打磨。",
 step_inside:"进入", watch_yt:"在YouTube观看 ↗", by:"KAUSTUBAM PRODUCTIONS 出品",
 week_label:"我们的影片", d_sun:"周日", d_mon:"周一", d_tue:"周二", d_wed:"周三", d_thu:"周四", d_fri:"周五",
 fest_teaser:"节日预告", fest_film:"节日正片", comp_teaser:"企业预告", comp_film:"企业正片", bird_teaser:"鸟类预告", bird_film:"鸟类正片",
@@ -17,8 +17,8 @@ kp_1:"KP是Kaustubam Productions的形象代表。他走访世界各地的庆典
 kp_2:"留意他夹克上的红钻。那是考斯图巴宝石，我们工作室的名字就来自它。",
 kp_alt:"KP-WOW的向导KP，面带微笑，身穿带红钻徽章的深蓝色夹克",
 for_partners:"致合作伙伴和投资者", map_a:"小小工作室，", map_b:"大大的地图",
-f1_h:"一个频道的系列", f1_p:"节日（2–3分钟）、企业（约5分钟，动画）和鸟类（约10分钟），各配10秒预告。另有为品牌制作的广告片。",
-f2_h:"影片类型", f2_p:"10秒预告、节日影片、企业闲谈、鸟类故事和广告片。已上线{n}部节日影片。",
+f1_h:"一个频道的系列", f1_p:"节日(2–3分钟)、企业(约5分钟，动画)、鸟类(约10分钟)和信仰(约5分钟)，每个系列都有10秒预告。另有为品牌打造的广告片。",
+f2_h:"影片类型", f2_p:"10秒预告、节日影片、企业闲谈、鸟类故事、信仰故事和广告片。已上线{n}部节日影片。",
 f3_h:"每部影片的人工审核", f3_p:"AI制作流程中每一步都由人审核：调研、故事、剧本、配音、镜头、剪辑和发布。",
 write:"联系我们", write_p:"问题、反馈、关于节日、企业或鸟类的想法，或为您的品牌制作广告片。我们会阅读每一条消息并通过电子邮件回复。",
 copy_email:"复制邮箱", copied:"已复制", press_copy:"请按Ctrl+C", director:"Sireesha Nallagatla，创意总监",
@@ -59,5 +59,6 @@ pay_sup_note:"支持款项是帮助我们制作免费教育影片的赠款，不
 pay_soon:"付款信息正在设置中。请发邮件至 {mail}，我们会发给您。",
 pay_copy:"复制", pay_btn:"付款或支持我们",
 pay_q3:"现在付款，还是先和我们沟通？", pay_now:"现在付款", pay_talk:"先和我们沟通", pay_talk_msg:"告诉我们您的需求。我们会在一个工作日内回复报价和最合适的付款方式。", pay_mail_btn:"发邮件给我们", pay_form_btn:"使用联系表单", pay_bank_req:"索取银行信息",
-v_teaser:"预告", v_teaser_len:"10秒", v_fest:"节日影片", v_fest_len:"2–3分钟", v_comp:"企业闲谈", v_comp_len:"约5分钟", v_bird:"鸟类故事", v_bird_len:"约10分钟", v_ad:"广告片", v_ad_len:"为品牌打造"
+v_teaser:"预告", v_teaser_len:"10秒", v_fest:"节日影片", v_fest_len:"2–3分钟", v_comp:"企业闲谈", v_comp_len:"约5分钟", v_bird:"鸟类故事", v_bird_len:"约10分钟", v_ad:"广告片", v_ad_len:"为品牌打造",
+nav_wod:"信仰", wod_name:"信仰世界", wod_door:"用心讲述的永恒信仰故事，从《美妙篇》(Sundarakanda)开始。", wod_lead:"来自印度伟大史诗的信仰故事，以动人的短剧呈现。我们从蚁垤《罗摩衍那》中的SKD——《美妙篇》(Sundarakanda)开始：哈奴曼的旅程，一章(sarga)一集，泰卢固语和印地语版本，每集结尾附一句今日感悟。", wod_h0:"10秒短片：每一章的精彩一瞥。", wod_h1:"每集约5分钟：一章，一个故事，屏幕上附有原文诗节(sloka)。", v_dev:"信仰故事", v_dev_len:"约5分钟"
 };

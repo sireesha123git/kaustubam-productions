@@ -3,7 +3,7 @@ nav_wof:"Festivals", nav_woc:"Entreprises", nav_wob:"Oiseaux", nav_woa:"Publicit
 lang_label:"Langue",
 foot_weekly:"De nouveaux films ajoutés à chaque sortie", foot_pay:"Payer ou nous soutenir",
 presents:"Kaustubam Productions présente", tagline:"Le Monde des Merveilles",
-lede:"Des courts-métrages sur les festivals, les entreprises et les oiseaux qui rendent notre monde merveilleux, et des publicités qui marquent. Faits avec l’IA, façonnés par des humains.",
+lede:"Des courts-métrages sur les festivals, les entreprises, les oiseaux et les récits de dévotion qui rendent notre monde merveilleux, et des publicités qui marquent. Faits avec l’IA, façonnés par des humains.",
 step_inside:"Entrez", watch_yt:"Voir sur YouTube ↗", by:"PAR KAUSTUBAM PRODUCTIONS",
 week_label:"Nos vidéos", d_sun:"DIM", d_mon:"LUN", d_tue:"MAR", d_wed:"MER", d_thu:"JEU", d_fri:"VEN",
 fest_teaser:"Teaser festival", fest_film:"Film festival", comp_teaser:"Teaser entreprise", comp_film:"Film entreprise", bird_teaser:"Teaser oiseaux", bird_film:"Film oiseaux",
@@ -17,8 +17,8 @@ kp_1:"KP est le visage de Kaustubam Productions. Il parcourt les fêtes du monde
 kp_2:"Remarquez le diamant rouge sur sa veste. C’est la gemme Kaustubha, le joyau qui a donné son nom à notre studio.",
 kp_alt:"KP, le guide de KP-WOW, souriant, portant une veste bleu marine ornée d’un emblème en diamant rouge",
 for_partners:"Pour les partenaires et investisseurs", map_a:"Un petit studio avec", map_b:"une grande carte",
-f1_h:"Séries sur une seule chaîne", f1_p:"Festivals (2–3 min), Entreprises (environ 5 min, animées) et Oiseaux (environ 10 min), chacune avec un teaser de 10 secondes. Et des publicités pour les marques.",
-f2_h:"Types de vidéos", f2_p:"Teasers de dix secondes, films de festivals, discussions sur des entreprises, histoires d’oiseaux et films publicitaires. {n} films de festivals déjà en ligne.",
+f1_h:"Séries sur une seule chaîne", f1_p:"Festivals (2–3 min), Entreprises (environ 5 min, animé), Oiseaux (environ 10 min) et Dévotion (environ 5 min), chacun avec un teaser de 10 secondes. Et des films publicitaires pour les marques.",
+f2_h:"Types de vidéos", f2_p:"Teasers de dix secondes, films de festivals, discussions sur des entreprises, histoires d’oiseaux, récits de dévotion et films publicitaires. {n} films de festivals déjà en ligne.",
 f3_h:"Validations humaines par film", f3_p:"Une production assistée par IA où une personne valide chaque étape : recherche, histoire, scénario, voix, plans, montage et publication.",
 write:"Écrivez-nous", write_p:"Questions, avis, idées de festival, d’entreprise ou d’oiseau, ou une publicité pour votre marque. Nous lisons chaque message et répondons par e-mail.",
 copy_email:"Copier l’e-mail", copied:"Copié", press_copy:"Appuyez sur Ctrl+C", director:"Sireesha Nallagatla, directrice de création",
@@ -59,5 +59,6 @@ pay_sup_note:"Les contributions de soutien sont des dons qui nous aident à cré
 pay_soon:"Les coordonnées de paiement sont en préparation. Écrivez à {mail} et nous vous les enverrons.",
 pay_copy:"Copier", pay_btn:"Payer ou nous soutenir",
 pay_q3:"Payer maintenant ou nous parler d'abord ?", pay_now:"Payer maintenant", pay_talk:"Nous parler d'abord", pay_talk_msg:"Dites-nous ce dont vous avez besoin. Nous répondons sous un jour ouvré avec un devis et le meilleur moyen de paiement.", pay_mail_btn:"Nous écrire", pay_form_btn:"Utiliser le formulaire de contact", pay_bank_req:"Demander les coordonnées bancaires",
-v_teaser:"Teasers", v_teaser_len:"10 s", v_fest:"Festivals", v_fest_len:"2–3 min", v_comp:"Entreprises", v_comp_len:"Environ 5 min", v_bird:"Oiseaux", v_bird_len:"Environ 10 min", v_ad:"Publicités", v_ad_len:"Pour les marques"
+v_teaser:"Teasers", v_teaser_len:"10 s", v_fest:"Festivals", v_fest_len:"2–3 min", v_comp:"Entreprises", v_comp_len:"Environ 5 min", v_bird:"Oiseaux", v_bird_len:"Environ 10 min", v_ad:"Publicités", v_ad_len:"Pour les marques",
+nav_wod:"Dévotion", wod_name:"Monde de la Dévotion", wod_door:"Des récits de dévotion intemporels, racontés avec le cœur, à commencer par le Sundarakanda.", wod_lead:"Des récits de dévotion tirés des grandes épopées de l’Inde, racontés comme de courts drames émouvants. Nous commençons par SKD – le Sundarakanda du Ramayana de Valmiki : le voyage d’Hanuman, sarga après sarga, en télougou et en hindi, chacun se terminant par une pensée du jour.", wod_h0:"Des Shorts de dix secondes : un aperçu de chaque sarga.", wod_h1:"Environ cinq minutes chacun : un sarga, une histoire, avec ses slokas à l’écran.", v_dev:"Récits de dévotion", v_dev_len:"Environ 5 min"
 };

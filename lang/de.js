@@ -3,7 +3,7 @@ nav_wof:"Feste", nav_woc:"Unternehmen", nav_wob:"Vögel", nav_woa:"Werbung", nav
 lang_label:"Sprache",
 foot_weekly:"Neue Filme kommen mit jeder Veröffentlichung dazu", foot_pay:"Bezahlen oder unterstützen",
 presents:"Kaustubam Productions präsentiert", tagline:"Welt der Wunder",
-lede:"Kurzfilme über die Feste, Unternehmen und Vögel, die unsere Welt wunderbar machen, und Werbefilme, die im Gedächtnis bleiben. Mit KI gemacht, von Menschen gestaltet.",
+lede:"Kurzfilme über die Feste, Unternehmen, Vögel und Andachtsgeschichten, die unsere Welt wunderbar machen, und Werbefilme, die im Gedächtnis bleiben. Mit KI gemacht, von Menschen gestaltet.",
 step_inside:"Eintreten", watch_yt:"Auf YouTube ansehen ↗", by:"VON KAUSTUBAM PRODUCTIONS",
 week_label:"Unsere Videos", d_sun:"SO", d_mon:"MO", d_tue:"DI", d_wed:"MI", d_thu:"DO", d_fri:"FR",
 fest_teaser:"Fest-Teaser", fest_film:"Festfilm", comp_teaser:"Unternehmens-Teaser", comp_film:"Unternehmensfilm", bird_teaser:"Vogel-Teaser", bird_film:"Vogelfilm",
@@ -17,8 +17,8 @@ kp_1:"KP ist das Gesicht von Kaustubam Productions. Er reist zu den Festen der W
 kp_2:"Achte auf den roten Diamanten an seiner Jacke. Das ist der Kaustubha-Edelstein, nach dem unser Studio benannt ist.",
 kp_alt:"KP, der Begleiter von KP-WOW, lächelnd, in einer marineblauen Jacke mit rotem Diamant-Emblem",
 for_partners:"Für Partner und Investoren", map_a:"Ein kleines Studio mit", map_b:"einer großen Karte",
-f1_h:"Serien auf einem Kanal", f1_p:"Feste (2–3 Min.), Unternehmen (etwa 5 Min., animiert) und Vögel (etwa 10 Min.), jeweils mit einem 10-Sekunden-Teaser. Dazu Werbefilme für Marken.",
-f2_h:"Arten von Videos", f2_p:"Zehnsekündige Teaser, Festfilme, Gespräche über Unternehmen, Vogelgeschichten und Werbefilme. {n} Festfilme sind schon online.",
+f1_h:"Serien auf einem Kanal", f1_p:"Feste (2–3 Min.), Unternehmen (etwa 5 Min., animiert), Vögel (etwa 10 Min.) und Andacht (etwa 5 Min.), jeweils mit einem 10-Sekunden-Teaser. Dazu Werbefilme für Marken.",
+f2_h:"Arten von Videos", f2_p:"Zehnsekündige Teaser, Festfilme, Gespräche über Unternehmen, Vogelgeschichten, Andachtsgeschichten und Werbefilme. {n} Festfilme sind schon online.",
 f3_h:"Menschliche Freigaben pro Film", f3_p:"Eine KI-Produktion, bei der ein Mensch jeden Schritt freigibt: Recherche, Geschichte, Drehbuch, Stimme, Einstellungen, Schnitt und Veröffentlichung.",
 write:"Schreib uns", write_p:"Fragen, Feedback, Ideen für ein Fest, ein Unternehmen oder einen Vogel, oder ein Werbefilm für deine Marke. Wir lesen jede Nachricht und antworten per E-Mail.",
 copy_email:"E-Mail kopieren", copied:"Kopiert", press_copy:"Strg+C drücken", director:"Sireesha Nallagatla, Creative Director",
@@ -59,5 +59,6 @@ pay_sup_note:"Unterstützungszahlungen sind Spenden, die uns helfen, kostenlose 
 pay_soon:"Die Zahlungsdaten werden gerade eingerichtet. Schreib an {mail}, wir schicken sie dir.",
 pay_copy:"Kopieren", pay_btn:"Bezahlen oder unterstützen",
 pay_q3:"Jetzt bezahlen oder erst mit uns sprechen?", pay_now:"Jetzt bezahlen", pay_talk:"Erst mit uns sprechen", pay_talk_msg:"Sagen Sie uns, was Sie brauchen. Wir antworten innerhalb eines Werktags mit einem Angebot und dem besten Zahlungsweg.", pay_mail_btn:"E-Mail schreiben", pay_form_btn:"Kontaktformular nutzen", pay_bank_req:"Bankdaten anfordern",
-v_teaser:"Teaser", v_teaser_len:"10 Sek.", v_fest:"Festfilme", v_fest_len:"2–3 Min.", v_comp:"Unternehmen", v_comp_len:"Etwa 5 Min.", v_bird:"Vogelgeschichten", v_bird_len:"Etwa 10 Min.", v_ad:"Werbefilme", v_ad_len:"Für Marken"
+v_teaser:"Teaser", v_teaser_len:"10 Sek.", v_fest:"Festfilme", v_fest_len:"2–3 Min.", v_comp:"Unternehmen", v_comp_len:"Etwa 5 Min.", v_bird:"Vogelgeschichten", v_bird_len:"Etwa 10 Min.", v_ad:"Werbefilme", v_ad_len:"Für Marken",
+nav_wod:"Andacht", wod_name:"Welt der Andacht", wod_door:"Zeitlose Andachtsgeschichten, mit Herz erzählt, beginnend mit dem Sundarakanda.", wod_lead:"Andachtsgeschichten aus Indiens großen Epen, erzählt als bewegende kurze Dramen. Wir beginnen mit SKD – dem Sundarakanda aus Valmikis Ramayana: Hanumans Reise, Sarga für Sarga, auf Telugu und Hindi, jede Folge endet mit einem Gedanken für den Tag.", wod_h0:"Zehnsekündige Shorts: ein Blick auf jedes Sarga.", wod_h1:"Etwa fünf Minuten: ein Sarga, eine Geschichte, mit seinen Slokas auf dem Bildschirm.", v_dev:"Andachtsgeschichten", v_dev_len:"Etwa 5 Min."
 };

@@ -3,7 +3,7 @@ nav_wof:"Festivales", nav_woc:"Empresas", nav_wob:"Aves", nav_woa:"Anuncios", na
 lang_label:"Idioma",
 foot_weekly:"Nuevas películas a medida que se estrenan", foot_pay:"Paga o apóyanos",
 presents:"Kaustubam Productions presenta", tagline:"Mundo de Maravillas",
-lede:"Cortos sobre los festivales, las empresas y las aves que hacen maravilloso nuestro mundo, y anuncios que se recuerdan. Hechos con IA, cuidados por personas.",
+lede:"Cortos sobre los festivales, las empresas, las aves y las historias devocionales que hacen maravilloso nuestro mundo, y anuncios que se recuerdan. Hechos con IA, cuidados por personas.",
 step_inside:"Entra", watch_yt:"Ver en YouTube ↗", by:"POR KAUSTUBAM PRODUCTIONS",
 week_label:"Nuestros videos", d_sun:"DOM", d_mon:"LUN", d_tue:"MAR", d_wed:"MIÉ", d_thu:"JUE", d_fri:"VIE",
 fest_teaser:"Avance de festival", fest_film:"Película de festival", comp_teaser:"Avance de empresa", comp_film:"Película de empresa", bird_teaser:"Avance de aves", bird_film:"Película de aves",
@@ -17,8 +17,8 @@ kp_1:"KP es el rostro de Kaustubam Productions. Viaja a las celebraciones del mu
 kp_2:"Fíjate en el diamante rojo de su chaqueta. Es la gema Kaustubha, la joya que da nombre a nuestro estudio.",
 kp_alt:"KP, el guía de KP-WOW, sonriendo, con una chaqueta azul marino y un emblema de diamante rojo",
 for_partners:"Para socios e inversores", map_a:"Un estudio pequeño con", map_b:"un gran mapa",
-f1_h:"Series en un solo canal", f1_p:"Festivales (2–3 min), Empresas (unos 5 min, animadas) y Aves (unos 10 min), cada una con un avance de 10 segundos. Además, anuncios para marcas.",
-f2_h:"Tipos de videos", f2_p:"Avances de diez segundos, películas de festivales, charlas sobre empresas, historias de aves y anuncios. {n} películas de festivales ya disponibles.",
+f1_h:"Series en un solo canal", f1_p:"Festivales (2–3 min), Empresas (unos 5 min, animado), Aves (unos 10 min) y Devoción (unos 5 min), cada uno con un avance de 10 segundos. Y anuncios para marcas.",
+f2_h:"Tipos de videos", f2_p:"Avances de diez segundos, películas de festivales, charlas sobre empresas, historias de aves, historias devocionales y anuncios. {n} películas de festivales ya disponibles.",
 f3_h:"Aprobaciones humanas por película", f3_p:"Un proceso de producción con IA en el que una persona aprueba cada paso: investigación, historia, guion, voz, planos, montaje y publicación.",
 write:"Escríbenos", write_p:"Preguntas, comentarios, ideas sobre un festival, una empresa o un ave, o un anuncio para tu marca. Leemos cada mensaje y respondemos por correo.",
 copy_email:"Copiar correo", copied:"Copiado", press_copy:"Pulsa Ctrl+C", director:"Sireesha Nallagatla, directora creativa",
@@ -59,5 +59,6 @@ pay_sup_note:"Los aportes de apoyo son donativos que nos ayudan a crear películ
 pay_soon:"Estamos preparando los datos de pago. Escribe a {mail} y te los enviaremos.",
 pay_copy:"Copiar", pay_btn:"Paga o apóyanos",
 pay_q3:"¿Pagar ahora o hablar antes con nosotros?", pay_now:"Pagar ahora", pay_talk:"Hablar antes con nosotros", pay_talk_msg:"Cuéntanos qué necesitas. Respondemos en un día hábil con un presupuesto y la mejor forma de pago.", pay_mail_btn:"Escríbenos", pay_form_btn:"Usar el formulario de contacto", pay_bank_req:"Pedir datos bancarios",
-v_teaser:"Avances", v_teaser_len:"10 s", v_fest:"Festivales", v_fest_len:"2–3 min", v_comp:"Charlas de empresas", v_comp_len:"Unos 5 min", v_bird:"Historias de aves", v_bird_len:"Unos 10 min", v_ad:"Anuncios", v_ad_len:"Para marcas"
+v_teaser:"Avances", v_teaser_len:"10 s", v_fest:"Festivales", v_fest_len:"2–3 min", v_comp:"Charlas de empresas", v_comp_len:"Unos 5 min", v_bird:"Historias de aves", v_bird_len:"Unos 10 min", v_ad:"Anuncios", v_ad_len:"Para marcas",
+nav_wod:"Devoción", wod_name:"Mundo de la Devoción", wod_door:"Historias devocionales eternas contadas con el corazón, empezando por el Sundarakanda.", wod_lead:"Historias devocionales de las grandes epopeyas de la India, contadas como breves dramas llenos de emoción. Empezamos con SKD – el Sundarakanda del Ramayana de Valmiki: el viaje de Hanuman, sarga a sarga, en telugu e hindi, y cada episodio termina con una reflexión del día.", wod_h0:"Shorts de diez segundos: un vistazo a cada sarga.", wod_h1:"Unos cinco minutos cada uno: un sarga, una historia, con sus slokas en pantalla.", v_dev:"Historias devocionales", v_dev_len:"Unos 5 min"
 };

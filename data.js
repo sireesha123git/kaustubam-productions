@@ -50,6 +50,11 @@ const SITE = {
     finals: [],
     upcoming: ["Season 1 · Episode 1", "Season 1 · Episode 2", "Season 1 · Episode 3"]
   },
+  wod: {            /* World of Devotion: SKD Sundarakanda first */
+    teasers: [],
+    finals: [],
+    upcoming: ["SKD · Sarga 1", "SKD · Sarga 2", "SKD · Sarga 3"]
+  },
   woa: {            /* World of Ads: no teasers, only the finished ad films */
     teasers: [],
     finals: [

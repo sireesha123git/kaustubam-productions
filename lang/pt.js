@@ -3,7 +3,7 @@ nav_wof:"Festivais", nav_woc:"Empresas", nav_wob:"Aves", nav_woa:"Anúncios", na
 lang_label:"Idioma",
 foot_weekly:"Novos filmes adicionados a cada estreia", foot_pay:"Pague ou apoie-nos",
 presents:"Kaustubam Productions apresenta", tagline:"Mundo de Maravilhas",
-lede:"Curtas sobre os festivais, as empresas e as aves que tornam o nosso mundo maravilhoso, e anúncios que ficam na memória. Feitos com IA, cuidados por pessoas.",
+lede:"Curtas sobre os festivais, as empresas, as aves e as histórias devocionais que tornam o nosso mundo maravilhoso, e anúncios que ficam na memória. Feitos com IA, cuidados por pessoas.",
 step_inside:"Entre", watch_yt:"Ver no YouTube ↗", by:"POR KAUSTUBAM PRODUCTIONS",
 week_label:"Nossos vídeos", d_sun:"DOM", d_mon:"SEG", d_tue:"TER", d_wed:"QUA", d_thu:"QUI", d_fri:"SEX",
 fest_teaser:"Teaser de festival", fest_film:"Filme de festival", comp_teaser:"Teaser de empresa", comp_film:"Filme de empresa", bird_teaser:"Teaser de aves", bird_film:"Filme de aves",
@@ -17,8 +17,8 @@ kp_1:"KP é o rosto da Kaustubam Productions. Ele viaja às celebrações do mun
 kp_2:"Repare no diamante vermelho no casaco dele. É a gema Kaustubha, a joia que dá nome ao nosso estúdio.",
 kp_alt:"KP, o guia do KP-WOW, sorrindo, com um casaco azul-marinho e um emblema de diamante vermelho",
 for_partners:"Para parceiros e investidores", map_a:"Um estúdio pequeno com", map_b:"um grande mapa",
-f1_h:"Séries num só canal", f1_p:"Festivais (2–3 min), Empresas (cerca de 5 min, animadas) e Aves (cerca de 10 min), cada uma com um teaser de 10 segundos. Além de anúncios para marcas.",
-f2_h:"Tipos de vídeo", f2_p:"Teasers de dez segundos, filmes de festivais, conversas sobre empresas, histórias de aves e anúncios. {n} filmes de festivais já no ar.",
+f1_h:"Séries num só canal", f1_p:"Festivais (2–3 min), Empresas (cerca de 5 min, animado), Aves (cerca de 10 min) e Devoção (cerca de 5 min), cada um com um teaser de 10 segundos. E anúncios para marcas.",
+f2_h:"Tipos de vídeo", f2_p:"Teasers de dez segundos, filmes de festivais, conversas sobre empresas, histórias de aves, histórias devocionais e anúncios. {n} filmes de festivais já no ar.",
 f3_h:"Aprovações humanas por filme", f3_p:"Um processo de produção com IA em que uma pessoa aprova cada etapa: pesquisa, história, roteiro, voz, cenas, edição e publicação.",
 write:"Escreva para nós", write_p:"Perguntas, comentários, ideias sobre um festival, uma empresa ou uma ave, ou um anúncio para a sua marca. Lemos todas as mensagens e respondemos por e-mail.",
 copy_email:"Copiar e-mail", copied:"Copiado", press_copy:"Pressione Ctrl+C", director:"Sireesha Nallagatla, diretora criativa",
@@ -59,5 +59,6 @@ pay_sup_note:"As contribuições de apoio são doações que nos ajudam a fazer 
 pay_soon:"Os dados de pagamento estão sendo preparados. Escreva para {mail} e nós os enviaremos.",
 pay_copy:"Copiar", pay_btn:"Pague ou apoie-nos",
 pay_q3:"Pagar agora ou falar conosco antes?", pay_now:"Pagar agora", pay_talk:"Falar conosco antes", pay_talk_msg:"Conte o que você precisa. Respondemos em um dia útil com um orçamento e a melhor forma de pagamento.", pay_mail_btn:"Envie um e-mail", pay_form_btn:"Usar o formulário de contato", pay_bank_req:"Pedir dados bancários",
-v_teaser:"Teasers", v_teaser_len:"10 s", v_fest:"Festivais", v_fest_len:"2–3 min", v_comp:"Empresas", v_comp_len:"Cerca de 5 min", v_bird:"Histórias de aves", v_bird_len:"Cerca de 10 min", v_ad:"Anúncios", v_ad_len:"Para marcas"
+v_teaser:"Teasers", v_teaser_len:"10 s", v_fest:"Festivais", v_fest_len:"2–3 min", v_comp:"Empresas", v_comp_len:"Cerca de 5 min", v_bird:"Histórias de aves", v_bird_len:"Cerca de 10 min", v_ad:"Anúncios", v_ad_len:"Para marcas",
+nav_wod:"Devoção", wod_name:"Mundo da Devoção", wod_door:"Histórias devocionais eternas contadas com o coração, começando pelo Sundarakanda.", wod_lead:"Histórias devocionais das grandes epopeias da Índia, contadas como dramas curtos e emocionantes. Começamos com SKD – o Sundarakanda do Ramayana de Valmiki: a jornada de Hanuman, sarga a sarga, em telugo e hindi, cada episódio terminando com um pensamento do dia.", wod_h0:"Shorts de dez segundos: um vislumbre de cada sarga.", wod_h1:"Cerca de cinco minutos cada: um sarga, uma história, com seus slokas na tela.", v_dev:"Histórias devocionais", v_dev_len:"Cerca de 5 min"
 };

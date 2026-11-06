@@ -88,11 +88,11 @@ p{margin:0}
 .week{position:relative;border-top:1px solid rgba(217,180,108,.16);background:rgba(11,16,32,.6)}
 .week .wrap{display:grid;grid-template-columns:auto 1fr;gap:24px;align-items:center;padding-block:18px}
 .week .lbl{font-family:var(--f-display);font-style:italic;font-size:1.25rem;color:var(--gold-hi)}
-.days{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:8px}
+.days{display:grid;grid-template-columns:repeat(6,minmax(0,1fr));gap:8px}
 .day{border:1px solid rgba(169,175,200,.18);border-radius:12px;padding:8px 10px;min-width:0}
 .day b{display:block;font-size:.72rem;letter-spacing:.18em;color:var(--mist)}
 .day span{display:block;font-size:.86rem;font-weight:600;line-height:1.3}
-.day.f span{color:#ffc58a}.day.c span{color:#9fd3e6}.day.b span{color:#b9dcb0}.day.a span{color:#c9b3ff}.day.t span{color:var(--moon)}
+.day.f span{color:#ffc58a}.day.c span{color:#9fd3e6}.day.b span{color:#b9dcb0}.day.a span{color:#c9b3ff}.day.d span{color:#ffb08a}.day.t span{color:var(--moon)}
 .week .note{grid-column:1/-1;font-size:.8rem;color:var(--mist)}
 
 /* ---------- doorways ---------- */
@@ -101,7 +101,7 @@ p{margin:0}
 .lobby h2,.sec-title{font-family:var(--f-display);font-weight:600;font-size:clamp(2.1rem,4.6vw,3.4rem);line-height:1.05;color:var(--moon)}
 .lobby h2 em,.sec-title em{color:var(--gold-hi)}
 .lobby .head p{color:var(--mist);max-width:28rem}
-.doors{display:grid;grid-template-columns:repeat(4,minmax(0,1fr));gap:22px}
+.doors{display:grid;grid-template-columns:repeat(5,minmax(0,1fr));gap:18px}
 .door{position:relative;display:flex;flex-direction:column;text-decoration:none;color:var(--moon)}
 .arch{position:relative;aspect-ratio:3/4;border-radius:999px 999px 22px 22px;overflow:hidden;border:1px solid rgba(217,180,108,.35);box-shadow:0 30px 60px -30px rgba(0,0,0,.9);transition:transform .45s cubic-bezier(.2,.8,.2,1),box-shadow .45s,border-color .45s;isolation:isolate}
 .arch svg{position:absolute;inset:0;width:100%;height:100%}
@@ -117,6 +117,7 @@ p{margin:0}
 .door[data-w="wof"]{--glow:rgba(255,166,77,.55)}
 .door[data-w="woc"]{--glow:rgba(110,190,225,.5)}
 .door[data-w="wob"]{--glow:rgba(240,150,130,.5)}
+.door[data-w="wod"]{--glow:rgba(255,140,60,.55)}
 .door[data-w="woa"]{--glow:rgba(150,120,235,.55)}
 
 /* ---------- latest row ---------- */
@@ -155,6 +156,7 @@ footer .wrap{display:flex;justify-content:space-between;gap:12px;flex-wrap:wrap}
 .world[data-w="wof"]{--w-bg:#fff7ee;--w-accent:#b8501f;--w-soft:#ffe4c8;--w-deep:#5c2414}
 .world[data-w="woc"]{--w-bg:#f1f6f8;--w-accent:#1f6f8b;--w-soft:#d7eaf1;--w-deep:#123c4c}
 .world[data-w="wob"]{--w-bg:#f3f6ef;--w-accent:#4f7a45;--w-soft:#dfead4;--w-deep:#25402a}
+.world[data-w="wod"]{--w-bg:#fff5ea;--w-accent:#8c2f39;--w-soft:#fbe1c6;--w-deep:#4a1620}
 .world[data-w="woa"]{--w-bg:#f5f2fc;--w-accent:#5b3fa6;--w-soft:#e5ddf7;--w-deep:#2a1c58}
 .banner{position:relative;overflow:hidden;border-bottom:1px solid var(--line)}
 .banner svg{position:absolute;inset:0;width:100%;height:100%}
@@ -300,7 +302,7 @@ footer .wrap{align-items:center}
 .paynote strong{color:var(--gold-hi)}
 @media (max-width:760px){ .choices,.row3,.result{grid-template-columns:1fr} }
 
-@media (max-width:1100px){ .doors{grid-template-columns:repeat(2,minmax(0,1fr))} }
+@media (max-width:1100px){ .doors{grid-template-columns:repeat(3,minmax(0,1fr))} }
 @media (max-width:900px){
   .talk{grid-template-columns:1fr}
   form.fb{grid-template-columns:1fr}
@@ -332,6 +334,7 @@ footer .wrap{align-items:center}
       <a href="#wof" data-nav="wof" data-t="nav_wof">Festivals</a>
       <a href="#woc" data-nav="woc" data-t="nav_woc">Companies</a>
       <a href="#wob" data-nav="wob" data-t="nav_wob">Birds</a>
+      <a href="#wod" data-nav="wod" data-t="nav_wod">Devotion</a>
       <a href="#woa" data-nav="woa" data-t="nav_woa">Ads</a>
       <a href="#partners" data-nav="partners" data-t="nav_partners">Partner with us</a>
     </nav>
@@ -388,9 +391,10 @@ const WORLDS={
   wof:{code:"WOF",films:"Festive Bytes",day:"one_mon"},
   woc:{code:"WOC",films:"Campus Chat",day:"one_wed"},
   wob:{code:"WOB",films:"Bird Bonds",day:"one_fri"},
+  wod:{code:"WOD",films:"SKD Sundarakanda",day:null},
   woa:{code:"WOA",films:"Memorable Ads",day:null}
 };
-const ORDER=["wof","woc","wob","woa"];
+const ORDER=["wof","woc","wob","wod","woa"];
 const TAB_IDS=["teasers","films"];
 const tabsOf=w=>w==="woa"?[WORLDS[w].films]:[t("teasers"),WORLDS[w].films];
 const app=document.getElementById("app");
@@ -488,6 +492,35 @@ function scene(kind, light, W, H, seed){
       s+=`<g transform="translate(0 ${y0.toFixed(1)})"><g class="drift" style="--d:${d}s;--dl:${dl}s;--w:${W+260}px">${g}</g></g>`;
     }
   }
+  if(kind==="wod"){
+    defs+=`<linearGradient id="g${id}" x1="0" y1="0" x2="0" y2="1">${light
+      ?'<stop offset="0" stop-color="#fff8ee"/><stop offset=".7" stop-color="#fde7cc"/><stop offset="1" stop-color="#f7cfa1"/>'
+      :'<stop offset="0" stop-color="#160a1c"/><stop offset=".5" stop-color="#4a1630"/><stop offset=".82" stop-color="#b4451f"/><stop offset="1" stop-color="#f0a14a"/>'}</linearGradient>
+      <radialGradient id="h${id}"><stop offset="0" stop-color="#ffd27a" stop-opacity="${light?.55:.75}"/><stop offset="1" stop-color="#ffd27a" stop-opacity="0"/></radialGradient>`;
+    s+=`<rect width="${W}" height="${H}" fill="url(#g${id})"/>`;
+    const cx=(light&&W>H)?(W>1000?W*.67:W*.8):W/2, wide=light&&W>H, op=light?1:.6;
+    // soft rising sun / halo behind the temple
+    s+=`<circle cx="${cx}" cy="${H*.62}" r="${Math.min(W,H)*.42}" fill="url(#h${id})"/>`;
+    s+=`<circle cx="${cx}" cy="${H*.62}" r="${Math.min(W,H)*.13}" fill="${light?'#ffd9a0':'#ffc46b'}" opacity="${light?.7:.85}"/>`;
+    // temple tower (gopuram) silhouette: stacked tiers
+    const tc=light?"#c9774a":"#240a18", base=H*.86, tw=wide?Math.min(W*.18,H*.42):Math.min(W*.42,H*.36), tiers=6;
+    let y=base; let tg="";
+    for(let k=0;k<tiers;k++){const w=tw*(1-k*.13), h=H*.055; tg+=`<rect x="${(cx-w/2)}" y="${y-h}" width="${w}" height="${h}" fill="${tc}"/>`;
+      for(let j=0;j<5;j++){const nx=(cx-w/2)+w*(j+.5)/5; tg+=`<rect x="${(nx-2).toFixed(1)}" y="${(y-h*.75).toFixed(1)}" width="4" height="${(h*.45).toFixed(1)}" fill="${light?'#f3c08e':'#5a1f2c'}"/>`;}
+      y-=h;}
+    const tw2=tw*(1-tiers*.13); tg+=`<path d="M ${(cx-tw2/2)-6} ${y} Q ${cx} ${y-H*.09} ${(cx+tw2/2)+6} ${y} Z" fill="${tc}"/>`;
+    tg+=`<line x1="${cx}" y1="${y-H*.07}" x2="${cx}" y2="${y-H*.12}" stroke="${tc}" stroke-width="3"/><circle cx="${cx}" cy="${y-H*.125}" r="4" fill="${light?'#e8a33c':'#ffcf6e'}"/>`;
+    // a saffron flag fluttering on the spire
+    tg+=`<path d="M ${cx} ${y-H*.12} L ${cx+22} ${y-H*.112} L ${cx} ${y-H*.098} Z" fill="#f08a24"/>`;
+    s+=`<g opacity="${op}">${tg}</g>`;
+    // ground and a row of glowing diyas
+    s+=`<rect x="0" y="${base}" width="${W}" height="${H-base}" fill="${light?'#e9b98a':'#1a0812'}"/>`;
+    const nd=Math.max(5,Math.round(W/46));
+    for(let i=0;i<nd;i++){const dx=(i+.5)*W/nd, dy=base+(H-base)*.45;
+      s+=`<path d="M ${dx-9} ${dy} Q ${dx} ${dy+9} ${dx+9} ${dy} Z" fill="${light?'#a8562c':'#7a3a1c'}"/><ellipse class="tw" style="--d:${(1.4+r()*1.6).toFixed(1)}s;--dl:${(-r()*2).toFixed(1)}s" cx="${dx}" cy="${dy-6}" rx="3" ry="6" fill="#ffc24d"/>`;}
+    // floating marigold petals
+    for(let i=0;i<Math.round(W/30);i++){s+=`<circle class="tw" style="--d:${(2+r()*3).toFixed(1)}s;--dl:${(-r()*3).toFixed(1)}s" cx="${(r()*W).toFixed(1)}" cy="${(r()*H*.6).toFixed(1)}" r="${(r()*2+1).toFixed(1)}" fill="${r()<.5?'#ffa630':'#ffd36b'}" opacity=".85"/>`;}
+  }
   if(kind==="woa"){
     defs+=`<linearGradient id="g${id}" x1="0" y1="0" x2="0" y2="1">${light
       ?'<stop offset="0" stop-color="#f8f6fe"/><stop offset="1" stop-color="#e6def8"/>'
@@ -569,6 +602,7 @@ function home(){
         <div class="day f"><b>${t("v_fest_len")}</b><span>${t("v_fest")}</span></div>
         <div class="day c"><b>${t("v_comp_len")}</b><span>${t("v_comp")}</span></div>
         <div class="day b"><b>${t("v_bird_len")}</b><span>${t("v_bird")}</span></div>
+        <div class="day d"><b>${t("v_dev_len")}</b><span>${t("v_dev")}</span></div>
         <div class="day a"><b>${t("v_ad_len")}</b><span>${t("v_ad")}</span></div>
       </div>
       <p class="note">${next?`${t("next_up")} <strong style="color:var(--gold-hi)" lang="en">${esc(next.title)}</strong>. `:""}${t("join_note")}</p>
@@ -606,8 +640,8 @@ function home(){
     <p class="eyebrow" style="color:var(--gold)">${t("for_partners")}</p>
     <h2 class="sec-title">${t("map_a")} <em>${t("map_b")}</em></h2>
     <div class="facts">
-      <div class="fact"><div class="num">3</div><h3>${t("f1_h")}</h3><p>${t("f1_p")}</p></div>
-      <div class="fact"><div class="num">5</div><h3>${t("f2_h")}</h3><p>${t("f2_p",{n:nFest})}</p></div>
+      <div class="fact"><div class="num">4</div><h3>${t("f1_h")}</h3><p>${t("f1_p")}</p></div>
+      <div class="fact"><div class="num">6</div><h3>${t("f2_h")}</h3><p>${t("f2_p",{n:nFest})}</p></div>
       <div class="fact"><div class="num">9</div><h3>${t("f3_h")}</h3><p>${t("f3_p")}</p></div>
     </div>
     <div class="talk" id="talk">
@@ -783,7 +817,7 @@ function wirePay(){
 let lastView="";
 function route(){
   const h=(location.hash||"").slice(1);
-  const m=h.match(/^(wof|woc|wob|woa)(?:-(teasers|films))?$/);
+  const m=h.match(/^(wof|woc|wob|wod|woa)(?:-(teasers|films))?$/);
   const isPay=h==="pay";
   const view=isPay?"pay":m?("w:"+m[1]+":"+(m[2]||"films")):"home";
   if(view!==lastView){

@@ -4,7 +4,7 @@ nav_wof:"Festivals", nav_woc:"Companies", nav_wob:"Birds", nav_woa:"Ads", nav_pa
 lang_label:"Language",
 foot_weekly:"New films added as they release", foot_pay:"Pay or support us",
 presents:"Kaustubam Productions presents", tagline:"World of Wonders",
-lede:"Short films about the festivals, companies and birds that make our world wonderful, and ad films that people remember. Made with AI, shaped by people.",
+lede:"Short films about the festivals, companies, birds and devotional stories that make our world wonderful, and ad films that people remember. Made with AI, shaped by people.",
 step_inside:"Step inside", watch_yt:"Watch on YouTube ↗", by:"BY KAUSTUBAM PRODUCTIONS",
 week_label:"Our videos", d_sun:"SUN", d_mon:"MON", d_tue:"TUE", d_wed:"WED", d_thu:"THU", d_fri:"FRI",
 fest_teaser:"Festival teaser", fest_film:"Festival film", comp_teaser:"Company teaser", comp_film:"Company film", bird_teaser:"Bird teaser", bird_film:"Bird film",
@@ -18,8 +18,8 @@ kp_1:"KP is the face of Kaustubam Productions. He travels to the world’s celeb
 kp_2:"Look for the red diamond on his jacket. It is the Kaustubha gem, the jewel our studio is named after.",
 kp_alt:"KP, the guide of KP-WOW, smiling, wearing a navy jacket with a red diamond emblem",
 for_partners:"For partners and investors", map_a:"A small studio with", map_b:"a big map",
-f1_h:"Series on one channel", f1_p:"Festivals (2–3 min), Companies (about 5 min, animated) and Birds (about 10 min), each with a 10-second teaser. Plus ad films for brands.",
-f2_h:"Kinds of videos", f2_p:"Ten-second teasers, festival films, company chats, bird stories and ad films. {n} festival films already live.",
+f1_h:"Series on one channel", f1_p:"Festivals (2–3 min), Companies (about 5 min, animated), Birds (about 10 min) and Devotion (about 5 min), each with a 10-second teaser. Plus ad films for brands.",
+f2_h:"Kinds of videos", f2_p:"Ten-second teasers, festival films, company chats, bird stories, devotional stories and ad films. {n} festival films already live.",
 f3_h:"Human approvals per film", f3_p:"An AI production pipeline where a person signs off every step: research, story, script, voice, shots, edit and publish.",
 write:"Write to us", write_p:"Questions, feedback, ideas for a festival, company or bird, or an ad film for your brand. We read every message and reply by email.",
 copy_email:"Copy email", copied:"Copied", press_copy:"Press Ctrl+C", director:"Sireesha Nallagatla, Creative Director",
@@ -60,5 +60,6 @@ pay_sup_note:"Support payments are gifts that help us make free educational film
 pay_soon:"Payment details are being set up. Please email {mail} and we will send them to you.",
 pay_copy:"Copy", pay_btn:"Pay or support us",
 pay_q3:"Pay now, or talk to us first?", pay_now:"Pay now", pay_talk:"Talk to us first", pay_talk_msg:"Tell us what you need. We reply within one working day with a quote and the best way to pay.", pay_mail_btn:"Email us", pay_form_btn:"Use the contact form", pay_bank_req:"Request bank details",
-v_teaser:"Teasers", v_teaser_len:"10 sec", v_fest:"Festival films", v_fest_len:"2–3 min", v_comp:"Company chats", v_comp_len:"About 5 min", v_bird:"Bird stories", v_bird_len:"About 10 min", v_ad:"Ad films", v_ad_len:"For brands"
+v_teaser:"Teasers", v_teaser_len:"10 sec", v_fest:"Festival films", v_fest_len:"2–3 min", v_comp:"Company chats", v_comp_len:"About 5 min", v_bird:"Bird stories", v_bird_len:"About 10 min", v_ad:"Ad films", v_ad_len:"For brands",
+nav_wod:"Devotion", wod_name:"World of Devotion", wod_door:"Timeless devotional stories told with heart, beginning with Sundarakanda.", wod_lead:"Devotional stories from India’s great epics, told as heartfelt short dramas. We begin with SKD – Sundarakanda from Valmiki’s Ramayana: Hanuman’s journey, one sarga at a time, in Telugu and Hindi, each ending with a thought for the day.", wod_h0:"Ten-second Shorts: a glimpse of each sarga.", wod_h1:"About five minutes each: one sarga, one story, with its slokas shown on screen.", v_dev:"Devotional stories", v_dev_len:"About 5 min"
 };
