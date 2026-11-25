@@ -26,7 +26,8 @@ const SITE = {
       { name: "Dussehra", title: "Dussehra Teaser", place: "India", at: "2026-10-14T18:00:00+05:30", url: "https://youtube.com/shorts/MNwyRbiHdFU", img: "dussehra" },
       { name: "Thanksgiving", title: "Thanksgiving Teaser", place: "USA", at: "2026-10-21T18:00:00+05:30", url: "https://youtube.com/shorts/lYAb_qo6d64", img: "thanksgiving" },
       { name: "Diwali", title: "Diwali Teaser", place: "India", at: "2026-11-01T18:00:00+05:30", url: "https://youtube.com/shorts/SkbTgbgBxLw", img: "diwali" },
-      { name: "Chinese New Year", title: "Chinese New Year Teaser", place: "China", at: "2026-11-08T18:00:00+05:30", url: "https://youtube.com/shorts/cHVxQvY31AU", img: "cny" }
+      { name: "Chinese New Year", title: "Chinese New Year Teaser", place: "China", at: "2026-11-08T18:00:00+05:30", url: "https://youtube.com/shorts/cHVxQvY31AU", img: "cny" },
+      { name: "Rio Carnival", title: "Can You Guess This Festival?", place: "Brazil", at: "2026-11-15T18:00:00+05:30", url: "https://youtube.com/shorts/qeJY-FoG2lc", thumb: "https://i.ytimg.com/vi/R460ZZ4VDo8/maxresdefault.jpg" }
     ],
     finals: [
       { name: "Ganesh Chaturthi", title: "Ganesh Chaturthi: Welcoming Lord Ganesha", place: "India", at: "2026-09-14T18:00:00+05:30", url: "https://youtu.be/pvPkAe9xsoQ", img: "ganesh" },
@@ -37,12 +38,17 @@ const SITE = {
       { name: "Dussehra", title: "Dussehra: The Victory of Good Over Evil", place: "India", at: "2026-10-16T18:00:00+05:30", url: "https://youtu.be/c_cTu5pABAY", img: "dussehra" },
       { name: "Thanksgiving", title: "Thanksgiving: America’s Day of Gratitude", place: "USA", at: "2026-10-23T18:00:00+05:30", url: "https://youtu.be/4n_q--TjnFs", img: "thanksgiving" },
       { name: "Diwali", title: "Diwali: India’s Festival of Lights", place: "India", at: "2026-11-02T18:00:00+05:30", url: "https://youtu.be/S5X-LjO1D8g", img: "diwali" },
-      { name: "Chinese New Year", title: "Chinese New Year: The Spring Festival", place: "China", at: "2026-11-09T18:00:00+05:30", url: "https://youtu.be/-28t001kgQ0", img: "cny" }
+      { name: "Chinese New Year", title: "Chinese New Year: The Spring Festival", place: "China", at: "2026-11-09T18:00:00+05:30", url: "https://youtu.be/-28t001kgQ0", img: "cny" },
+      { name: "Rio Carnival", title: "Rio Carnival: One Night, a Whole Year of Work", place: "Brazil", at: "2026-11-16T18:00:00+05:30", url: "https://youtu.be/R460ZZ4VDo8", thumb: "https://i.ytimg.com/vi/R460ZZ4VDo8/maxresdefault.jpg" }
     ]
   },
   woc: {
-    teasers: [],
-    finals: [],
+    teasers: [
+      { name: "Indian Railways", title: "Who Is Holding Her Train?", place: "India", at: "2026-11-25T20:30:00+05:30", url: "https://youtube.com/shorts/Pi5HQNYuan0", thumb: "https://i.ytimg.com/vi/Pf1hYWdYMK4/maxresdefault.jpg" }
+    ],
+    finals: [
+      { name: "Indian Railways", title: "The Last Signal", place: "India", at: "2026-11-25T20:30:00+05:30", url: "https://youtu.be/Pf1hYWdYMK4", thumb: "https://i.ytimg.com/vi/Pf1hYWdYMK4/maxresdefault.jpg" }
+    ],
     upcoming: ["Intel", "Google", "Amazon", "Cisco", "Apple"]
   },
   wob: {
